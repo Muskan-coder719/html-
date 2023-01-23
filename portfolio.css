@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.viewport{
+    height:100vh;
+    width:100%;
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.parent_profile{
+    height:350px;
+    width: 40%;
+    background-color:rgba(255,255,255,.5);
+    box-shadow: 0 0 5px black;
+    padding:50px 30px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    border-radius: 20px;
+    row-gap:5px;
+}
+
+.image{
+    height:200px;
+    width:200px;
+    background-color: red;
+    border-radius:50%;
+    overflow:hidden;
+}
+.pro_img{
+    width:100%;
+}
+.name{
+    font-family :'Lobster', cursive;
+    font-size:25px;
+    color:black;
+}
+.title{
+    font-family:'Segoe UI';
+    color:black;
+    font-size:20px ;
+    font-weight: 500;
+
+}
+.icons{
+    color:black;
+    font-size:15px;
+    display: flex;
+    column-gap:5px;
+}
+
